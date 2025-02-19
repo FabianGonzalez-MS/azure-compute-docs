@@ -91,7 +91,7 @@ The following JSON shows the schema for the Key Vault VM extension. Before you c
 
 - Observed certificates URLs should be of the form `https://myVaultName.vault.azure.net/secrets/myCertName`.
 
-   This form is preferred because the `/secrets` path returns the full certificate, including the private key, but the `/certificates` path doesn't. For more information about certificates, see [Azure Key Vault keys, secrets and certificates overview](/azure/key-vault/general/about-keys-secrets-certificates).
+   This form is preferred because the `/secrets` path returns the full certificate, including the private key, but the `/certificates` path doesn't. For more information about certificates, see [About certificates](/azure/key-vault/general/about-keys-secrets-certificates).
 
 - The `authenticationSettings` property is **required** for VMs with any **user assigned identities**.
 
